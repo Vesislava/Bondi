@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bondi</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	</head>
+	<body>	
+
+		<header>
+			<div id="canvas-menu" class="canvas-layout bg_clr-top-layout">
+
+				<nav class="nav-menu">
+					<ul class="main-menu">
+						<li ><a href="/" title="Home" class="active" class="clr_text-main-menu "><span>Home</span></a></li>
+						<li ><a href="/" title="Services" class="clr_text-main-menu "><span>Services</span></a></li>
+						<li><a href="/" title="Portfolio"  class="clr_text-main-menu "><span>Portfolio</span></a></li>
+						<li ><a href="/" title="About" class="clr_text-main-menu "> About</a></li>
+						<li ><a href="/" title="Contact" class="clr_text-main-menu "><span>Contact</span></a></li>
+					</ul>
+				</nav>
+
+			</div>
+				<div class="top-layout bg_clr-top-layout ">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="main-menu">
+									<div class="logo">
+										<a href="index.html" title="Logo"><img src="assets/img/logo.png" alt="logo" title="Bondy Theme"></a>
+									</div>
+
+										<button class="open-button bg_clr-btn" onclick="openForm()" id="open"><span>Login</span></button>
+
+										<div class="form-popup " id="myForm">
+											<form action="/" class="form-container ">
+											<h1 >Login</h1>
+
+										    <label for="email"><b>Email</b></label>
+										    <input type="text" placeholder="Enter Email" name="email" required>
+
+										    <label for="psw"><b>Password</b></label>
+										    <input type="password" placeholder="Enter Password" name="psw" required>
+
+										    <button type="submit" class="btn bg_clr-btn">Login</button>
+										    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+										  </form>
+										</div>
+
+									<form action="/" method="POST" class="form-search">
+										<button type="submit" class="search bg_clr-top-layout"><i class="fa fa-search" aria-hidden="true"></i></button>
+									</form>
+							
+
+									<div id="canvas-trigger" class="canvas-btn visible-sm visible-xs ">
+									<div></div>
+									</div>
+
+									<nav class="menu">
+										<ul>
+											<li ><a href="/" title="Home" class="active" class="clr_text-main-menu "><span>Home</span></a></li>
+											<li ><a href="/" title="Services" class="clr_text-main-menu "><span>Services</span></a></li>
+											<li><a href="/" title="Portfolio"  class="clr_text-main-menu "><span>Portfolio</span></a></li>
+											<li ><a href="/" title="About" class="clr_text-main-menu "><span>About</span></a></li>
+											<li ><a href="/" title="Contact" class="clr_text-main-menu "><span>Contact</span></a></li>
+										</ul>
+									</nav>
+
+									<div class="title">
+										<h1>Taste the Creativity</h1>
+										<p class="clr_text-main-menu">We make awesome graphic and web design</p>
+
+										<form action="/" method="POST" class="form-started">
+											<button type="submit" class="get-started bg_clr-btn"><span>Get Started</span></button>
+										</form>
+									</div>
+								</div
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+
+		<section>
+			
+			<div class="design-content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="title-design">
+								<img src="assets/img/icon/one.png">
+								<h2 class="clr_text-contnt">We are Good at</h2>
+								<p class="clr_text-main-menu">some of thease stuff under</p>
+							</div>
+						</div>
+						
+						<div class="col-lg-4 col-md-6">
+							<div class="design ">
+								<img src="assets/img/icon/graphic-design-icon.png"  alt="graphic design" title="Graphic Design">
+								<h2>graphic design</h2>
+								<p class="clr_text-main-menu">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+							</div>
+						</div>
+						
+						<div class="col-lg-4 col-md-6">	
+							<div class="design ">
+								<img src="assets/img/icon/web-design-icon.png"  alt="web design" title="Web Design">
+								<h2>web design</h2>
+								<p class="clr_text-main-menu">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+							</div>
+
+						</div>	
+ 
+						<div class="col-lg-4 col-md-12">
+							<div class="design ">
+								<img src="assets/img/icon/art-design-icon.png"  alt="art design" title="Artc Design">
+								<h2>art design</h2>
+								<p class="clr_text-main-menu">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+							</div>
+						</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="products-content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="products-title">
+								<img src="assets/img/icon/two.png">
+								<h2 class="clr_text-contnt">We Make This</h2>
+								<p class="clr_text-main-menu">prepare to be amazed</p>
+							</div>
+							<div class="menu-prdct">
+								<ul class="product-menu">
+									<li class="prdct-btn active" id="all-btn"><span class="clr_text-main-menu all prdct-span" id="all">All</span></li>
+
+									<li id="design-btn"><span class=" clr_text-main-menu" id="design">Design</span></li>
+
+									<li id="code-btn"><span  class="clr_text-main-menu" id="code">Code</span></li>
+
+									<li id="photography-btn"><span class="clr_text-main-menu" id="photography">Photography</span></li>
+
+									<li id="apps-btn"><span class="clr_text-main-menu" id="apps">Apps</span></li>
+								</ul>
+								<div id="picture-prdct">
+									<div class="picture" >
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Design</p>
+											</div>	
+											<img src="assets/img/products/design.jpg" alt="Design" title="Design" id="picture">
+										</div>
+									</div>
+
+									<div class="picture" id="picture">
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Code</p>
+											</div>
+											<img src="assets/img/products/code.jpg" alt="Code" title="Code" >
+										</div>
+									</div>
+
+									<div class="picture" id="picture" >
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Photography</p>
+											</div>
+											<img src="assets/img/products/photography.jpg" alt="Photography" title="Photography" >
+										</div>
+									</div>
+
+									<div class="picture apps-one" id="picture">
+										<div class="col-lg-3 col-md-4" id="apps-one">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Apps</p>
+											</div>
+											<img src="assets/img/products/apps.jpg" alt="Apps" title="Apps"" >
+										</div>
+									</div>
+
+									<div class="picture " id="picture">
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Design</p>
+											</div>
+											<img src="assets/img/products/design-two.jpg" alt="Design" title="Design">
+										</div>
+									</div>
+
+									<div class="picture" id="picture">
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Code</p>
+											</div>
+											<img src="assets/img/products/code-two.jpg" alt="Code" title="Code">
+										</div>
+									</div>
+
+									<div class="picture" id="picture">
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Photography</p>
+											</div>	
+											<img src="assets/img/products/photography-two.jpg" alt="Photography" title="Photography">
+										</div>
+									</div>
+
+									<div class="picture apps-one" id="picture">
+										<div class="col-lg-3 col-md-4">
+											<div class="middle">
+												<p class="text-middle">Awsome Work</p>
+												<p class="text-menu-middle">/Apps</p>
+											</div>	
+											<img src="assets/img/products/apps-two.jpg" alt="Apps" title="Apps"">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-12">
+							<div class="product-btn">
+								<form action="/" method="POST" class="blogs-form">
+									<button type="submit" class="blogs-btn bg_clr-btn"><span>i want more...</span></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="about-us-stuff">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="blog-title">
+								<img src="assets/img/icon/one.png">
+								<h2 class="clr_text-contnt">Some Stuff About Us</h2>
+								<p class="clr_text-main-menu">the great team</p>
+								<p class="clr_text-main-menu">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+							</div>
+							<div class="retina-design">
+								<div class="col-lg-6 col-md-12">
+									<h2 class="clr_text-contnt">Retina Design</h2>
+									<p class="clr_text-main-menu">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. 
+									</p>
+									<p class="clr_text-main-menu">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+									<button type="submit" class="blogs-btn bg_clr-btn"><span>order me one</span></button>
+								</div>
+							</div>
+							<div class="retina-design-img">
+								<div class="col-lg-6 col-md-12 ">
+									<img src="assets/img/about-us.jpg" alt="Retina Design" title="Retina Design">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="meet-team">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Meet the Team</h2>
+							<p class="text-team clr_text-main-menu">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+						</div>
+
+						<div class="team-members">
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="team-img">
+									<img src="assets/img/team-member/member-one.jpg" alt="team member" title="Team Member">
+									<div class="name-member">
+										<h3>Yoda</h3>
+									</div>
+								</div>
+								<div class="team-phrase">
+									<p class="clr_text-main-menu phrase">“I don't understand how we got by those troops. I thought we were dead.“</p>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="team-img">
+									<img src="assets/img/team-member/member-two.jpg" alt="team member" title="Team Member">
+									<div class="name-member">
+										<h3>Princess Leia</h3>
+									</div>
+
+								</div>
+								<div class="team-phrase">
+									<p class="clr_text-main-menu phrase">“Your clones are very impressive. You must be very proud”</p>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="team-img">
+									<img src="assets/img/team-member/member-three.jpg" alt="team member" title="Team Member">
+									<div class="name-member">
+										<h3>Obi-Wan Kenobi</h3>
+									</div>
+								</div>
+								<div class="team-phrase">
+									<p class="clr_text-main-menu phrase"> “I don't know who you are or where you came from, but from now on you'll do as I tell you, okay?” </p>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="team-img">
+									<img src="assets/img/team-member/member-four.jpg" alt="team member" title="Team Member">
+									<div class="name-member">
+										<h3>Ahsoka</h3>
+									</div>
+								</div>
+								<div class="team-phrase">
+									<p class="clr_text-main-menu phrase">“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.” </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo-friends">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="assets/img/friends-logo.png" alt="friends logo" title="Friends Logo">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="start-project bg_clr-top-layout">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Start Your Project Now</h2>
+							<p class="clr_text-main-menu">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+							<button type="submit" class="blogs-btn bg_clr-btn"><span>start project</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="blog-content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="blog-title">
+								<img src="assets/img/icon/one.png">
+								<h2 class="clr_text-contnt">Read Our Blog</h2>
+								<p class="clr_text-main-menu">new stories</p>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="blogs">
+									<a href="/" title="Blog Title"><img src="assets/img/blogs/one-blog.jpg"  alt="blog" title="Blog Title"></a>
+									<p class="clr_text-main-menu">January 17,2017</p>
+									<h2 class="clr_text-contnt">Some Awesome Blog Title Here</h2>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6">
+								<div class="blogs">
+									<a href="/" title="Blog Title"><img src="assets/img/blogs/two-blog.jpg"  alt="blog" title="Blog Title"></a>
+									<p class="clr_text-main-menu">January 17,2017</p>
+									<h2 class="clr_text-contnt">Some Awesome Blog Title Here</h2>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-12">
+								<div class="blogs">
+									<a href="/" title="Blog Title"><img src="assets/img/blogs/three-blog.png"  alt="blog" title="Blog Title"></a>
+									<p class="clr_text-main-menu">January 17,2017</p>
+									<h2 class="clr_text-contnt">Some Awesome Blog Title Here</h2>
+								</div>
+							</div>
+
+							<div class="blog-btn">
+									<form action="/" method="POST" class="blogs-form">
+										<button type="submit" class="blogs-btn bg_clr-btn"><span>i want more...</span></button>
+									</form>						
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="newsletter">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="form-newsletter">
+								<form action="/" method="POST">
+									<p>
+										Subscribe to our Newsletter:
+										<input type="email" name="email address" placeholder="Enter email Address" class="enter-email">
+										<button type="submit" class="subscribe bg_clr-top-layout"><span>Subscribe</span></button>
+									</p>
+								</form>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bottom-layout  bg_clr-top-layout">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="bottom-menu clr_text-main-menu  bg_clr-top-layout">
+								<div class="inf-ln-ab-cn logo-inf">
+									<a href="index.html" title="Logo"><img src="assets/img/logo.png" alt="logo" title="Bondy Theme"></a>
+
+									<p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+
+									<p class="created-by">Created by <span>Graphberry</span>,Belgrade,Serbia</p>
+									<p> © 2017 - <span class="bondi">Bondi.Inc</span></p>
+								</div>
+							
+								<div class="inf-ln-ab-cn links">
+									<h2>Links</h2>
+									<ul>
+										<li><a href="/" title="Home" class="clr_text-main-menu ">Home</a></li>
+										<li><a href="/" title="Our Services" class="clr_text-main-menu ">Our Services</a></li>
+										<li><a href="/" title="Portfolio" class="clr_text-main-menu ">Portfolio</a></li>
+										<li><a href="/" title="Testimonials" class="clr_text-main-menu ">Testimonials</a></li>
+										<li><a href="/" title="Support" class="clr_text-main-menu ">Support</a></li>
+										<li><a href="/" title="Terms and Conditions" class="clr_text-main-menu ">Terms and Conditions</a></li>
+									</ul>
+								</div>
+
+								<div class="inf-ln-ab-cn about-us">
+									<h2>About Us</h2>
+									<ul>
+										<li><a href="/" title="Sing In" class="clr_text-main-menu ">Sing In</a></li>
+										<li><a href="/" title="Register" class="clr_text-main-menu ">Register</a></li>
+										<li><a href="/" title="About Us" class="clr_text-main-menu ">About Us</a></li>
+										<li><a href="/" title="Blog" class="clr_text-main-menu ">Blog</a></li>
+										<li><a href="/" title="Contact Us" class="clr_text-main-menu ">Contact Us</a></li>
+									</ul>
+								
+								</div>
+
+								<div class="inf-ln-ab-cn contact-us">
+									<h2>Contact Us</h2>
+									<p>Get in touch with us via mail phone.We are waiting for <br> your call or message</p>
+
+									<form action="/" method="POST">
+										<button type="email" name="Our Email" class=" btn-email our-email-btn bg_clr-btn" >graphberry@gmail.com</button>
+									</form>
+
+									<div class="social-icon">
+										<ul>
+											<li class=" icon fc-icon"><a href="/" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li class="tw-icon"><a href="/" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li class="gm-icon"><a href="/" title="GMail"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+											<li class="dr-icon"><a href="/" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+		<script type="text/javascript" src="assets/js/app.js"></script>
+	</body>
+</html>

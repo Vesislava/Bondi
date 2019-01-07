@@ -1,0 +1,201 @@
+/* Design */
+
+.design-content {
+	width: 100%;
+}
+
+.design-content .row {
+	margin-right: 0;
+	margin-right: 0;
+}
+
+.title-design {
+	width: 100%;
+	text-align: center;
+}
+
+.title-design img {
+	margin: 57px 0 50px 0;
+}
+
+.title-design h2 {
+	font-family: 'robotomedium';
+	font-size: 2.18em;
+	margin-bottom: 20px;
+}
+
+.title-design p {
+	font-family: 'robotoregular';
+	font-size: 0.94em;
+	text-transform: uppercase;
+
+}
+
+.title-design p:after {
+	content: '______________________';
+	clear: both;
+	display: block;
+	color: #00c6bf;
+}
+
+.design {
+	width: 380px;
+	height: 357px;
+	display: inline-block;
+	margin: 50px 0 65px 0;
+	text-align: center;
+}
+
+.design img {
+	margin-bottom: 35px;
+}
+
+.design h2 {
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	color: #ffc501;
+	font-size: 1.25em;
+	 font-family: 'robotomedium';
+}
+
+.design p {
+	font-size: 0.94em;
+	 font-family: 'robotoregular';
+	 line-height: 30px;
+	 padding: 0 40px;
+
+}
+
+/*Blog content*/
+
+.blog-content {
+	width: 100%;
+	
+}
+
+
+
+.blog-title {
+	width: 100%;
+	text-align: center;
+}
+
+.blog-title img {
+	margin: 57px 0 50px 0;
+	text-align: center;
+}
+
+.blog-title h2 {
+	font-family: 'robotomedium';
+	font-size: 2.18em;
+	margin-bottom: 20px;
+}
+
+.blog-title p {
+	font-family: 'robotoregular';
+	font-size: 0.94em;
+	text-transform: uppercase;
+}
+
+.blog-title p:after {
+	content: '______________________';
+	clear: both;
+	display: block;
+	color: #00c6bf;
+}
+
+.blogs {
+	width: 380px;
+	display: inline-block;
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+.blogs h2 {
+	margin-bottom: 40px;
+	font-size: 1.25em;
+	font-family: 'robotoregular';
+	text-align: left;
+	padding: 0 15px;
+}
+
+.blogs p {
+	font-size: 0.81em;
+	font-family: 'robotoregular';
+	line-height: 30px;
+	padding: 0 15px;
+	text-align: left;
+}
+
+.blog-btn {
+	height: 45px;
+	margin-bottom: 57px;
+}
+ 
+@media only screen and (max-width: 1200px) {
+	.design-content .col-lg-4 {
+		text-align: center;
+	}
+
+	.blog-content {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.blog-content .col-lg-4 {
+		text-align: center;
+
+	}
+
+	.blogs {
+		width: 80%;
+	}
+
+	.blogs a img{
+		width: 80%;
+	}
+
+	.blogs p {
+		font-size: 0.95em;
+		width: 80%;
+		padding-left: 75px;
+
+	}
+
+	.blogs h2 {
+		padding-left: 75px;
+		font-size: 1.5em;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* Desig Conent*/
+	.design {
+		width: 100%;
+	}
+	.design-content .col-lg-4 {
+		text-align: center;
+	}
+
+	
+
+	.blogs {
+		width: 100%;
+	}
+
+	.blogs p {
+		font-size: 0.95em;
+			padding-left: 0;
+	}
+
+	.blogs h2 {
+		font-size: 1.5em;
+			padding-left: 0;
+
+	}
+	.blogs a img{
+		width: 100%;
+	}
+}

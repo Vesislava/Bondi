@@ -1,0 +1,179 @@
+/*Search Form*/
+
+form.form-search {
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+
+}
+
+form button.search {
+	color: #00c7c0;
+	border:none;
+	outline: none;
+	margin-right: 15px;
+}
+
+form button.search:before {
+	content: '|';
+	clear: both;
+	display: inline-block;
+	margin-right: 20px;
+
+
+}
+
+
+
+/* Get Started*/
+
+form.form-started {
+	text-align: center;
+
+	margin-top: 33px;
+
+}
+
+button.get-started {
+	font-family: 'robotomedium';
+	font-size: 0.93em;
+	border: none;
+	width: 190PX;
+	height: 45PX;
+	border-radius: 20px;
+	outline: none;
+	
+}
+
+button.get-started span {
+	color: #ffbb06;
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+/*Newsletter*/
+
+.form-newsletter {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.form-newsletter p {
+	color: #19283f;
+	font-size: 1.25em;
+	 font-family: 'robotoregular';
+}
+
+.enter-email {
+	width: 470px;
+	outline: none;
+	background-color: #ffc400;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin-left: 35px;
+	margin-right: 30px;
+	color: #fff;
+}
+
+::placeholder {
+ 	color: #fff;
+ 	font-size: 0.81em;
+  	opacity: 1; 
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #fff;
+ 	font-size: 15px;
+ 	opacity: 1;
+}
+:-ms-input-placeholder { /* Microsoft Edge */
+	color: #fff;
+ 	font-size: 15px;
+ 	opacity: 1;
+}
+
+button.subscribe {
+	width: 200px;
+	height: 45px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+}
+
+button.subscribe span {
+	color: #ffc400;
+	font-size: 0.8em;
+	font-family: 'robotomedium';
+	display: inline-block;
+	padding-bottom: 3px;
+	
+
+}
+
+/* Bottom Menu */
+.our-email-btn {
+	width: 370px;
+	height: 45px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 0.81em;
+	padding-bottom: 5px;
+	margin-top: 35px;
+}
+
+/*  Blogs Button*/
+
+form.blogs-form {
+	text-align: center;
+	margin-top: 60px;
+	
+}
+
+button.blogs-btn {
+	font-family: 'robotomedium';
+	font-size: 0.93em;
+	border: none;
+	width: 205PX;
+	height: 45PX;
+	border-radius: 20px;
+	outline: none;
+	display: inline-block;
+	
+	
+}
+
+button.blogs-btn span {
+	color: #ffbb06;
+	display: inline-block;
+	padding-bottom: 1px;
+	text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	button.subscribe {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	button.subscribe {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* Newslleter */
+	.enter-email {
+		width: 50%;
+		margin-bottom: 1	5px;
+	}
+	.btn-email {
+		width: 50%;
+	}
+
+	button.subscribe {
+		margin-top: 10px;
+	}
+}

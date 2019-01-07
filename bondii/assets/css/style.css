@@ -1,0 +1,18 @@
+/*Color Background*/
+
+.bg_clr-top-layout{
+	background-color: #19283f;
+}
+
+/*color text*/
+.clr_text-main-menu {
+	color: #a8b9c0;
+}
+.clr_text-contnt{
+	color: #19283f;
+}
+
+/*Button Background*/
+.bg_clr-btn {
+	background-color: #ff3150;
+}
